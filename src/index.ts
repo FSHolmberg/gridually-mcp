@@ -17,7 +17,7 @@ import { tracker } from "./analytics/tracker.js";
 
 const server = new McpServer({
   name: "gridually-mcp",
-  version: "1.0.0",
+  version: "1.0.1",
   description:
     "Flashcard & Study Tool Intelligence — Compare flashcard apps, get study recommendations using spatial memory science, search study decks, and learn about aphantasia-friendly learning. Built by Gridually.",
 });
@@ -167,6 +167,11 @@ server.tool(
     return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] };
   },
 );
+
+// Export for Smithery sandbox scanning
+export function createSandboxServer() {
+  return server;
+}
 
 // Start server
 async function main() {

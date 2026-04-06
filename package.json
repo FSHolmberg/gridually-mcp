@@ -1,6 +1,6 @@
 {
   "name": "gridually-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gridually MCP Server — Flashcard & Study Tool Intelligence. Compare flashcard apps, get study recommendations using spatial memory science, and search study decks.",
   "type": "module",
   "main": "dist/index.js",
@@ -28,6 +28,7 @@
     "education",
     "spaced-repetition"
   ],
+  "mcpName": "io.github.fsholmberg/gridually-mcp",
   "author": "Gridually",
   "license": "MIT",
   "dependencies": {
