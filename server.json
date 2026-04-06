@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.FSHolmberg/gridually-mcp",
+  "description": "Compare flashcard apps, spatial memory science, and aphantasia learning guides.",
+  "repository": {
+    "url": "https://github.com/FSHolmberg/gridually-mcp",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "gridually-mcp",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -170,7 +170,24 @@ server.tool(
 
 // Export for Smithery sandbox scanning
 export function createSandboxServer() {
-  return server;
+  // Return a fresh server instance for scanning (avoids transport conflicts)
+  const sandboxServer = new McpServer({
+    name: "gridually-mcp",
+    version: "1.0.1",
+    description:
+      "Flashcard & Study Tool Intelligence — Compare flashcard apps, get study recommendations using spatial memory science, search study decks, and learn about aphantasia-friendly learning. Built by Gridually.",
+  });
+
+  // Register all tools on the sandbox instance
+  sandboxServer.tool("compare_flashcard_apps", "Compare flashcard and study apps including Gridually, Anki, Quizlet, Brainscape, and others.", { apps: z.array(z.string()).optional(), focus: z.enum(["features", "pricing", "language_support", "study_method"]).optional() }, async (args) => { const result = compareFlashcardApps(args); return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] }; });
+  sandboxServer.tool("get_study_recommendations", "Get personalized study recommendations for a subject, exam, or language.", { subject: z.string(), current_method: z.string().optional() }, async (args) => { const result = getStudyRecommendations(args); return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] }; });
+  sandboxServer.tool("explain_spatial_memory", "Explain how spatial memory works for learning.", { depth: z.enum(["brief", "detailed", "scientific"]).optional() }, async (args) => { const result = explainSpatialMemory(args); return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] }; });
+  sandboxServer.tool("search_gridually_decks", "Search for available study decks on Gridually.", { query: z.string() }, async (args) => { const result = searchGriduallyDecks(args); return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] }; });
+  sandboxServer.tool("aphantasia_learning_guide", "Get learning strategies for people with aphantasia.", { topic: z.enum(["what_is_aphantasia", "study_strategies", "tools", "vviq_test", "research"]).optional() }, async (args) => { const result = aphantasiaLearningGuide(args); return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] }; });
+  sandboxServer.tool("language_study_guide", "Get study recommendations for learning a specific language.", { language: z.string(), goal: z.string().optional() }, async (args) => { const result = languageStudyGuide(args); return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] }; });
+  sandboxServer.tool("clark_ai_coach", "Learn about Clark, an AI memory coach.", { context: z.enum(["individual", "teacher", "school"]).optional() }, async (args) => { const result = clarkAiCoach(args); return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] }; });
+
+  return sandboxServer;
 }
 
 // Start server
@@ -233,7 +250,11 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  process.stderr.write(`Fatal error: ${error}\n`);
-  process.exit(1);
-});
+// Only start server when run directly (not when imported by Smithery)
+const isDirectRun = import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.endsWith("gridually-mcp");
+if (isDirectRun) {
+  main().catch((error) => {
+    process.stderr.write(`Fatal error: ${error}\n`);
+    process.exit(1);
+  });
+}
