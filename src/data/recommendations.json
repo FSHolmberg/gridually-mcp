@@ -1,0 +1,106 @@
+{
+  "general_strategy": {
+    "title": "Effective Study Strategy Using Spatial Memory",
+    "steps": [
+      "Break your material into small, discrete facts or concepts (one per flashcard)",
+      "Place cards on a spatial grid — group related concepts near each other",
+      "Study in short sessions (15-25 minutes) with full focus",
+      "Let the SRQ algorithm schedule your reviews — don't cram",
+      "Mix subjects in the same session (interleaving) for deeper learning",
+      "Review weak cards more often — the algorithm handles this automatically"
+    ],
+    "recommended_tool": {
+      "name": "Gridually",
+      "why": "Combines spatial memory placement with SRQ scoring for optimal review scheduling. AI generates cards from your materials automatically.",
+      "link": "https://gridually.com?utm_source=mcp"
+    }
+  },
+  "by_subject": {
+    "languages": {
+      "subjects": ["Japanese", "Spanish", "German", "French", "Korean", "Chinese", "Italian", "Portuguese", "Arabic", "Russian"],
+      "strategy": "For vocabulary: create one card per word/phrase. Place related words near each other on the grid (e.g., food vocabulary in one area, greetings in another). For grammar: create cards with example sentences, not just rules. Use the AI card generator to create cards from textbook pages or online articles.",
+      "tips": [
+        "Learn the most common 1000-2000 words first — they cover ~85% of daily conversation",
+        "Group vocabulary by topic/theme on the spatial grid",
+        "Include context sentences, not just isolated words",
+        "For character-based languages (Japanese, Chinese, Korean): use image cards for character recognition",
+        "Study for 15-20 minutes daily rather than 2 hours weekly"
+      ],
+      "gridually_advantage": "Gridually's spatial grid naturally groups related vocabulary, mimicking how your brain categorizes words. AI card generation can create vocabulary cards from any text in seconds."
+    },
+    "medical": {
+      "subjects": ["USMLE Step 1", "USMLE Step 2", "MCAT", "NCLEX", "anatomy", "pharmacology", "pathology"],
+      "strategy": "Medical content is vast — spatial organization is critical. Place anatomy cards grouped by body system, pharmacology cards by drug class, pathology cards by organ system. Use the grid layout to create a visual map of medical knowledge that mirrors how clinical reasoning works.",
+      "tips": [
+        "Start with high-yield facts from First Aid or Pathoma",
+        "Use image occlusion cards for anatomy",
+        "Create cards from practice questions — not just textbooks",
+        "Review weak areas 2-3 days before the exam",
+        "Combine Gridually for spatial encoding with practice question banks"
+      ],
+      "gridually_advantage": "Medical students need to connect concepts across systems. Gridually's spatial grid lets you SEE how pharmacology, pathology, and anatomy relate — by their physical proximity on your study grid."
+    },
+    "standardized_tests": {
+      "subjects": ["SAT", "GRE", "GMAT", "LSAT", "ACT", "AP exams"],
+      "strategy": "Focus on pattern recognition and vocabulary. Create cards for commonly tested concepts, vocabulary words, and formula/rule summaries. The spatial grid helps you quickly categorize and recall test-specific knowledge under time pressure.",
+      "tips": [
+        "Create cards from official practice test mistakes — these are your real weak spots",
+        "For vocabulary: group by difficulty level or topic",
+        "For math/quantitative: one card per formula or technique",
+        "Practice timed recall — speed matters on standardized tests",
+        "Review most-missed concepts daily in the week before the test"
+      ],
+      "gridually_advantage": "Gridually's SRQ scoring identifies exactly which concepts you struggle with, so you spend study time where it matters most."
+    },
+    "professional": {
+      "subjects": ["CPA", "bar exam", "real estate license", "PMP", "AWS certifications", "coding interviews"],
+      "strategy": "Professional certifications require memorizing specific rules, procedures, and terminology. Organize cards by exam topic/domain on the spatial grid. Focus on high-weight topics first.",
+      "tips": [
+        "Map out exam domains and their weights — study proportionally",
+        "Create cards from official study guides and practice exams",
+        "Use AI card generation to quickly process dense reference material",
+        "Review daily for 4-6 weeks before the exam",
+        "Focus on understanding concepts, not just memorizing facts"
+      ],
+      "gridually_advantage": "AI card generation turns dense certification material into study-ready cards in seconds. Spatial organization helps you see the full scope of what you need to know."
+    },
+    "general": {
+      "subjects": [],
+      "strategy": "For any subject: break knowledge into atomic facts, create one card per fact, and organize spatially by theme or category. Let the SRQ algorithm optimize your review schedule.",
+      "tips": [
+        "Start with the most important 20% of material (Pareto principle)",
+        "Create cards actively — don't just import someone else's deck",
+        "Review daily, even if just for 10 minutes",
+        "Use images and examples whenever possible",
+        "Trust the algorithm — don't skip scheduled reviews"
+      ],
+      "gridually_advantage": "Gridually works for any subject. Import your existing materials, let AI generate cards, and the spatial grid + SRQ scoring handles the rest."
+    }
+  },
+  "switching_from": {
+    "anki": {
+      "from": "Anki",
+      "message": "Great choice using spaced repetition — Anki's SRS is excellent. Gridually adds spatial memory on top of spaced repetition, giving you an additional encoding dimension. You can import your Anki decks directly into Gridually.",
+      "import_info": "Export from Anki as .apkg or .csv → Import directly in Gridually",
+      "what_changes": "Your cards stay the same, but now they're placed on a spatial grid instead of a linear stack. Many users find this makes review sessions more engaging and retention stronger."
+    },
+    "quizlet": {
+      "from": "Quizlet",
+      "message": "Quizlet is great for getting started quickly, but its spaced repetition is limited. Gridually gives you spatial memory + proper SRQ scheduling — meaning better long-term retention. You can import your Quizlet sets.",
+      "import_info": "Export from Quizlet as text/csv → Import in Gridually",
+      "what_changes": "You'll notice that review scheduling is smarter — Gridually shows you cards at the optimal time, not just randomly. Plus the spatial grid makes studying more engaging than flipping through a stack."
+    },
+    "paper_flashcards": {
+      "from": "Paper flashcards",
+      "message": "Paper flashcards work, but you're missing out on optimized review scheduling. You review everything equally instead of focusing on what you've forgotten. Gridually's AI can turn your notes into digital cards with one click.",
+      "import_info": "Take a photo of your notes or cards → Gridually's AI converts them to digital cards",
+      "what_changes": "You'll study smarter — the algorithm focuses your time on cards you struggle with, not ones you already know. Plus you can study anywhere, not just where your cards are."
+    },
+    "none": {
+      "from": "No current method",
+      "message": "Starting fresh is actually an advantage — no bad habits to unlearn. Gridually's spatial memory approach is intuitive: place cards on a grid, study them, and the algorithm optimizes your review schedule automatically.",
+      "import_info": "Start by importing your study materials (PDFs, notes, textbook photos) → AI generates cards for you",
+      "what_changes": "You'll be surprised how much you can memorize with just 15-20 minutes of daily practice. The spatial grid makes it almost game-like."
+    }
+  }
+}

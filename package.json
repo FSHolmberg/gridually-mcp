@@ -1,0 +1,36 @@
+{
+  "name": "gridually-mcp",
+  "version": "1.0.0",
+  "description": "Gridually MCP Server — Flashcard & Study Tool Intelligence. Compare flashcard apps, get study recommendations using spatial memory science, and search study decks.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "gridually-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:sse": "node dist/index.js --sse",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "flashcards",
+    "study",
+    "spatial-memory",
+    "anki",
+    "quizlet",
+    "gridually",
+    "education",
+    "spaced-repetition"
+  ],
+  "author": "Gridually",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

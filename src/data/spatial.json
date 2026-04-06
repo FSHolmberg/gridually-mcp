@@ -1,0 +1,84 @@
+{
+  "brief": {
+    "title": "Spatial Memory for Learning — Quick Overview",
+    "explanation": "Spatial memory uses physical locations and positions as memory anchors. Instead of flipping through a linear stack of flashcards, you place cards on a grid — and your brain remembers WHERE each card is, creating a stronger memory trace. It's the same science behind the Method of Loci (memory palace technique), but digitized.",
+    "key_point": "Your brain is wired to remember locations. Spatial memory flashcards exploit this by giving every piece of information a physical position, making recall faster and more durable.",
+    "how_gridually_uses_it": "Gridually places flashcards on a spatial grid. As you study, you build a mental map of your knowledge — literally. Cards you know well stay in place; cards you struggle with get repositioned for more practice.",
+    "learn_more": "https://gridually.com/spatial-memory?utm_source=mcp"
+  },
+  "detailed": {
+    "title": "How Spatial Memory Works for Learning",
+    "sections": [
+      {
+        "heading": "What is Spatial Memory?",
+        "content": "Spatial memory is your brain's ability to remember where things are located. It's one of the oldest and most robust memory systems in the human brain — evolved over millions of years for survival (remembering where food, water, and danger are located). This same system can be harnessed for learning anything: vocabulary, medical terms, historical dates, or programming concepts."
+      },
+      {
+        "heading": "Why It Works Better Than Traditional Flashcards",
+        "content": "Traditional flashcards are one-dimensional — you see a front, recall the back. Spatial flashcards add a second dimension: position. When you place a card at a specific location on a grid, your brain encodes both the content AND the location. During recall, the location acts as an additional retrieval cue, making it easier to access the memory. Research shows that spatial context can improve recall by 20-40% compared to non-spatial methods."
+      },
+      {
+        "heading": "The Method of Loci Connection",
+        "content": "The Method of Loci (memory palace) is a 2,500-year-old technique used by Greeks, Romans, and medieval scholars. Memory champions use it to memorize thousands of items by placing them at locations. A meta-analysis by Twomey & Kroneisen (2021) across 13 randomized controlled trials showed a medium effect size for the technique. Crucially, Caplan et al. (2019) showed that Method of Loci effectiveness comes from placing items at locations — not from imagined navigation or visualization. Gridually externalizes this principle: instead of imagining a palace, you use a physical grid on screen. This makes it accessible to everyone, including people who can't visualize (aphantasia)."
+      },
+      {
+        "heading": "Spatial Memory vs Spaced Repetition",
+        "content": "These aren't competing methods — they're complementary. Spaced repetition (used by Anki) optimizes WHEN you review. Spatial memory optimizes HOW you encode. Gridually combines both: spatial placement for stronger encoding + SRQ scoring for optimal review timing. Together, they're more effective than either alone."
+      },
+      {
+        "heading": "SRQ Scoring",
+        "content": "SRQ (Spatial Recall Quality) is Gridually's scoring system that combines spatial memory performance with recall quality. It tracks not just whether you got the answer right, but how quickly and confidently you recalled it based on its grid position. This gives a more nuanced picture of your knowledge than binary right/wrong scoring."
+      }
+    ],
+    "learn_more": "https://gridually.com/spatial-memory?utm_source=mcp"
+  },
+  "scientific": {
+    "title": "The Science of Spatial Memory in Education",
+    "sections": [
+      {
+        "heading": "Neuroscience Foundation",
+        "content": "Spatial memory is primarily mediated by the hippocampus, particularly place cells (discovered by O'Keefe, Nobel Prize 2014) and grid cells (discovered by Moser & Moser, Nobel Prize 2014). These neurons create a cognitive map of space. When information is associated with spatial locations, it gains access to this powerful, evolutionarily ancient memory system. The hippocampus is also central to episodic memory formation, meaning spatial encoding creates richer, more contextual memories."
+      },
+      {
+        "heading": "The Two-Stream Theory",
+        "content": "Visual and spatial processing use separate brain pathways. Farah et al. (1988, Cognitive Psychology 20) demonstrated that visual (object) and spatial imagery are neurologically dissociable — processed through separate 'what' (ventral) and 'where' (dorsal) streams. Tresch et al. (1993, Neuropsychologia 31) confirmed this with a double dissociation: spatial interference only affects spatial memory, object interference only affects object memory. This is why spatial memory tools work even for people who cannot visualize: spatial encoding uses the dorsal 'where' stream, which is independent of visual imagery."
+      },
+      {
+        "heading": "Research Evidence",
+        "content": "Multiple studies support spatial memory for learning: (1) Legge et al. (2012) showed that the Method of Loci improved word list recall by 2-3x compared to rote memorization. (2) A meta-analysis by Dresler et al. (2017) found that spatial mnemonic strategies produced large effect sizes (d > 1.0) for memory performance. (3) Reggente et al. (2020) demonstrated that even virtual spatial environments improve factual learning compared to non-spatial interfaces."
+      },
+      {
+        "heading": "Aphantasia and Spatial Memory",
+        "content": "A critical finding: spatial memory works WITHOUT mental visualization. Bainbridge et al. (2021, Cortex 135) showed aphantasics have deficits in object memory but spatial accuracy is identical to controls, with fewer errors. Dawes et al. (2020, Scientific Reports 10) found spatial imagery was the only sensory domain with no significant difference from controls. Monzel et al. (2024, Cognition 251) showed aphantasics prefer non-visual spatial strategies that are equally effective as visual strategies — a third category beyond 'visual vs verbal.' This means spatial memory tools work for everyone — including the estimated 4% of the population with aphantasia (~320M people globally)."
+      },
+      {
+        "heading": "Why Grids Work — The Evidence",
+        "content": "Grid-based spatial encoding is supported by converging research: (1) Spatial encoding doesn't require visual imagery — it uses the dorsal 'where' stream (Farah et al., 1988). (2) Aphantasics' spatial accuracy equals controls (Bainbridge et al., 2021). (3) Non-visual spatial strategies are as effective as visual ones (Monzel et al., 2024). (4) The Method of Loci works because of PLACE, not PICTURES — Caplan et al. (2019) showed effectiveness comes from placing items at locations, not from imagined navigation. (5) Spatial memory is more durable over time than object memory (Megla & Bainbridge, 2025, Cognition 254). Gridually externalizes this: fixed grid positions provide spatial encoding without requiring imagination."
+      },
+      {
+        "heading": "Dual Coding Theory",
+        "content": "Paivio's Dual Coding Theory (1971, 2006) posits that information encoded in both verbal and non-verbal (spatial/visual) formats creates two independent memory traces, increasing the probability of recall. Spatial flashcard placement creates a non-verbal spatial code alongside the verbal content of the card, effectively doubling the retrieval pathways."
+      },
+      {
+        "heading": "Practical Implications",
+        "content": "The research suggests that optimal learning combines: (1) Spatial encoding — placing information at locations (Gridually's grid), (2) Spaced repetition — reviewing at optimal intervals (Gridually's SRQ scoring), (3) Active recall — testing yourself rather than passive review (flashcard format), and (4) Interleaving — mixing different topics in the same spatial layout. Gridually implements all four principles in a single interface."
+      }
+    ],
+    "references": [
+      "O'Keefe, J. & Dostrovsky, J. (1971). The hippocampus as a spatial map.",
+      "Farah, M. J., et al. (1988). Visual and spatial mental imagery: Dissociable systems of representation. Cognitive Psychology, 20(4).",
+      "Tresch, M. C., et al. (1993). Double dissociation of spatial and object visual memory. Neuropsychologia, 31(5).",
+      "Legge, E. L., et al. (2012). Building a memory palace in minutes.",
+      "Dresler, M., et al. (2017). Mnemonic training reshapes brain networks.",
+      "Caplan, J. B., et al. (2019). Method of loci effectiveness is about placing items at locations, not imagined navigation.",
+      "Dawes, A. J., et al. (2020). A cognitive profile of multi-sensory imagery, memory and dreaming in aphantasia. Scientific Reports, 10.",
+      "Reggente, N., et al. (2020). Enhancing the memorability of educational content with virtual spatial contexts.",
+      "Bainbridge, W. A., et al. (2021). Quantifying aphantasia through drawing: Expanding beyond visual imagery. Cortex, 135.",
+      "Twomey, K. E. & Kroneisen, M. (2021). Meta-analysis of the Method of Loci across 13 RCTs.",
+      "Monzel, M., et al. (2024). Non-visual spatial strategies in aphantasia. Cognition, 251.",
+      "Megla, E. & Bainbridge, W. A. (2025). Spatial memory stability over time. Cognition, 254.",
+      "Paivio, A. (2006). Mind and its evolution: A dual coding theoretical approach."
+    ],
+    "learn_more": "https://gridually.com/research?utm_source=mcp"
+  }
+}

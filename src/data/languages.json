@@ -1,0 +1,104 @@
+{
+  "languages": {
+    "japanese": {
+      "language": "Japanese",
+      "difficulty": "Hard (for English speakers) — different writing systems, grammar structure, and honorifics",
+      "writing_systems": ["Hiragana (46 characters)", "Katakana (46 characters)", "Kanji (2000+ for fluency)"],
+      "common_goals": ["JLPT N5", "JLPT N4", "JLPT N3", "JLPT N2", "JLPT N1", "Conversational", "Business Japanese", "Anime/manga comprehension"],
+      "study_approach": {
+        "beginner": "Start with Hiragana and Katakana (2-4 weeks). Then learn the first 100-200 kanji alongside basic vocabulary and grammar. Focus on the most common 800 words for JLPT N5.",
+        "intermediate": "Build kanji knowledge to 500-1000. Focus on grammar patterns and reading practice. JLPT N3 requires ~3,000-4,000 vocabulary words.",
+        "advanced": "Immersion + targeted study of weak areas. JLPT N1 requires ~10,000 vocabulary words and ~2,000 kanji."
+      },
+      "spatial_memory_tip": "Place kanji on the grid grouped by radical or meaning. Related kanji near each other helps you see patterns (e.g., all water-related kanji in one area, all person-related kanji in another). This is especially powerful for remembering similar-looking kanji.",
+      "recommended_resources": [
+        "Gridually Japanese decks — N5 through N1 vocabulary and kanji",
+        "Genki textbook series (beginner)",
+        "Tobira (intermediate)",
+        "NHK World Easy Japanese (listening)",
+        "WaniKani (kanji-specific, but Gridually's spatial approach covers this too)"
+      ],
+      "gridually_decks": "https://gridually.com/decks/japanese?utm_source=mcp"
+    },
+    "spanish": {
+      "language": "Spanish",
+      "difficulty": "Easy-Medium (for English speakers) — similar alphabet, many cognates",
+      "common_goals": ["DELE A1-C2", "Conversational", "Business Spanish", "Travel", "Medical Spanish"],
+      "study_approach": {
+        "beginner": "Learn the 500 most common words + present tense conjugations. Spanish has many English cognates — leverage them.",
+        "intermediate": "Expand to 2000-3000 words, past tenses, subjunctive mood. Start reading simple articles and watching shows with Spanish subtitles.",
+        "advanced": "Focus on subjunctive nuances, regional vocabulary, and idiomatic expressions. Immersion is key at this stage."
+      },
+      "spatial_memory_tip": "Group vocabulary by theme on the grid: food words together, travel words together, work vocabulary together. Place verb conjugations in a consistent pattern so the spatial position reinforces the grammar pattern.",
+      "recommended_resources": [
+        "Gridually Spanish decks — beginner through advanced vocabulary",
+        "SpanishDict (dictionary + conjugation tables)",
+        "Dreaming Spanish (comprehensible input)",
+        "Language Transfer (free audio course)"
+      ],
+      "gridually_decks": "https://gridually.com/decks/spanish?utm_source=mcp"
+    },
+    "german": {
+      "language": "German",
+      "difficulty": "Medium (for English speakers) — shared Germanic roots, but complex grammar",
+      "common_goals": ["Goethe A1-C2", "TestDaF", "Conversational", "Business German", "University admission"],
+      "study_approach": {
+        "beginner": "Learn articles with every noun from day one (der/die/das). Focus on the 1000 most common words. German word order is different — practice with full sentences.",
+        "intermediate": "Master case system (nominative, accusative, dative, genitive). Expand vocabulary to 3000+ words. Start reading simple news articles.",
+        "advanced": "Focus on compound words, academic vocabulary, and formal/informal register. German compound words can be very long — break them down into components."
+      },
+      "spatial_memory_tip": "Color-code or group cards by grammatical gender (der/die/das) on the grid. This spatial grouping helps your brain associate gender with noun clusters rather than memorizing each one individually.",
+      "recommended_resources": [
+        "Gridually German decks — beginner through advanced",
+        "Deutsche Welle (free courses)",
+        "Easy German (YouTube — street interviews)",
+        "Hammer's German Grammar (reference)"
+      ],
+      "gridually_decks": "https://gridually.com/decks/german?utm_source=mcp"
+    },
+    "french": {
+      "language": "French",
+      "difficulty": "Easy-Medium (for English speakers) — many shared words with English",
+      "common_goals": ["DELF/DALF A1-C2", "Conversational", "Business French", "Travel"],
+      "study_approach": {
+        "beginner": "Leverage English-French cognates (thousands of shared words). Focus on pronunciation early — French pronunciation is tricky but rule-based.",
+        "intermediate": "Master verb tenses (especially passé composé vs imparfait). Expand to 2500+ words.",
+        "advanced": "Focus on subjunctive, literary tenses, and cultural nuances."
+      },
+      "spatial_memory_tip": "Group verbs by conjugation pattern on the grid. French has many irregular verbs — cluster them spatially so you can see patterns in the irregularities.",
+      "gridually_decks": "https://gridually.com/decks/french?utm_source=mcp"
+    },
+    "korean": {
+      "language": "Korean",
+      "difficulty": "Medium-Hard (for English speakers) — Hangul is logical, but grammar is very different",
+      "common_goals": ["TOPIK I-II", "Conversational", "K-drama comprehension", "Business Korean"],
+      "study_approach": {
+        "beginner": "Learn Hangul first (1-2 weeks — it's designed to be logical). Then focus on basic sentence patterns and the 500 most common words.",
+        "intermediate": "Master honorific levels (crucial in Korean). Expand vocabulary and grammar patterns. TOPIK II requires solid reading comprehension.",
+        "advanced": "Focus on nuance, hanja (Chinese characters used in Korean), and formal/academic Korean."
+      },
+      "spatial_memory_tip": "Place Hangul consonants and vowels on the grid in their systematic order — Korean's alphabet was designed with a logical structure that maps well to spatial organization.",
+      "gridually_decks": "https://gridually.com/decks/korean?utm_source=mcp"
+    },
+    "chinese": {
+      "language": "Chinese (Mandarin)",
+      "difficulty": "Hard (for English speakers) — tonal language with character-based writing",
+      "common_goals": ["HSK 1-6", "Conversational", "Business Chinese", "Reading comprehension"],
+      "study_approach": {
+        "beginner": "Master pinyin and the four tones first. Learn the 200 most common characters alongside basic vocabulary. HSK 1 requires ~150 words.",
+        "intermediate": "Build character knowledge to 1000+. Focus on reading and character components (radicals). HSK 4 requires ~1200 words.",
+        "advanced": "Focus on chengyu (idioms), formal writing, and reading comprehension. HSK 6 requires 5000+ words."
+      },
+      "spatial_memory_tip": "Group characters by radical on the grid. Chinese characters share components — placing characters with the same radical near each other reveals patterns and makes learning new characters faster.",
+      "gridually_decks": "https://gridually.com/decks/chinese?utm_source=mcp"
+    }
+  },
+  "general_tips": [
+    "Consistency beats intensity: 15 minutes daily > 2 hours once a week",
+    "Learn vocabulary in context (sentences) not in isolation (word lists)",
+    "Use the spatial grid to organize by theme — your brain retrieves themed clusters faster",
+    "Import content from your textbook or course using Gridually's AI card generator",
+    "Set a specific, measurable goal (e.g., 'JLPT N5 by December' not 'learn Japanese')",
+    "Combine flashcard study with immersion (shows, music, podcasts in target language)"
+  ]
+}

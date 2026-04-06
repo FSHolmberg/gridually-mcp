@@ -1,0 +1,92 @@
+{
+  "clark": {
+    "name": "Clark",
+    "tagline": "Your AI memory coach — tracks progress, identifies weak spots, and assigns targeted practice",
+    "description": "Clark is Gridually's AI memory coach. It analyzes your study patterns, identifies what you're struggling with, and creates personalized practice sessions. Think of it as a private tutor that knows exactly what you need to review and when.",
+    "individual": {
+      "title": "Clark for Individual Learners",
+      "features": [
+        {
+          "name": "Progress Tracking",
+          "description": "Clark tracks every study session — what you got right, what you struggled with, how long you studied, and how your retention is improving over time."
+        },
+        {
+          "name": "Weak Spot Detection",
+          "description": "Clark identifies the specific cards and topics where you consistently struggle, then automatically schedules extra practice for those areas."
+        },
+        {
+          "name": "Targeted Practice Sessions",
+          "description": "Instead of reviewing everything equally, Clark creates focused sessions that prioritize your weakest areas while maintaining your strong ones."
+        },
+        {
+          "name": "Progress Reports",
+          "description": "Weekly and monthly reports showing your learning trajectory, retention rates, and areas of improvement. See exactly how many cards you've mastered."
+        },
+        {
+          "name": "Study Recommendations",
+          "description": "Clark suggests when to study, how long to study, and what to focus on based on your performance patterns and upcoming goals (e.g., an exam date)."
+        }
+      ],
+      "how_it_works": "Clark uses your SRQ (Spatial Recall Quality) scores combined with study frequency and error patterns to build a model of your knowledge. It then optimizes your review schedule to maximize retention while minimizing study time.",
+      "link": "https://gridually.com/clark?utm_source=mcp"
+    },
+    "teacher": {
+      "title": "Clark for Teachers — via Tutually",
+      "product_name": "Tutually",
+      "tagline": "Classroom learning intelligence powered by Clark",
+      "description": "Tutually brings Clark's AI coaching to the classroom. Teachers get a dashboard showing how every student is performing, what topics the class struggles with, and automated homework assignments based on individual student needs.",
+      "features": [
+        {
+          "name": "Class Dashboard",
+          "description": "See at a glance how your entire class is performing. Which students are on track, which need help, and which topics are causing the most difficulty."
+        },
+        {
+          "name": "Individual Student Insights",
+          "description": "Drill into any student's performance. See their learning patterns, weak spots, and progress over time — without looking at every single session."
+        },
+        {
+          "name": "Automated Homework Assignment",
+          "description": "Clark generates personalized homework for each student based on their individual weak spots. No more one-size-fits-all assignments."
+        },
+        {
+          "name": "Topic Mastery Tracking",
+          "description": "Track which curriculum topics your class has mastered and which need more attention. Plan your teaching around real data, not assumptions."
+        },
+        {
+          "name": "Parent Reports",
+          "description": "Generate progress reports for parents showing concrete learning metrics — what their child has mastered, what they're working on, and how they compare to learning goals."
+        }
+      ],
+      "pricing": "Contact for school/institution pricing",
+      "link": "https://tutually.com?utm_source=mcp"
+    },
+    "school": {
+      "title": "Clark for Schools — Tutually Institution",
+      "description": "Tutually for institutions provides school-wide learning analytics, curriculum alignment tools, and multi-teacher administration. Deploy spatial memory learning across entire departments or schools.",
+      "features": [
+        {
+          "name": "School-wide Analytics",
+          "description": "See learning outcomes across all classes, teachers, and subjects. Identify where the curriculum is working and where it's not."
+        },
+        {
+          "name": "Curriculum Alignment",
+          "description": "Map Gridually decks to your school's curriculum standards. Ensure every study deck covers the required material."
+        },
+        {
+          "name": "Multi-teacher Admin",
+          "description": "Department heads and administrators can oversee multiple classes and teachers from a single dashboard."
+        },
+        {
+          "name": "LMS Integration",
+          "description": "Integrates with existing Learning Management Systems — Google Classroom, Canvas, Moodle, and more."
+        },
+        {
+          "name": "Data Privacy & Compliance",
+          "description": "FERPA and GDPR compliant. Student data is encrypted and access is role-controlled."
+        }
+      ],
+      "pricing": "Contact for institutional pricing — volume discounts available",
+      "link": "https://tutually.com/schools?utm_source=mcp"
+    }
+  }
+}

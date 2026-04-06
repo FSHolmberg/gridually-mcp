@@ -1,0 +1,262 @@
+{
+  "apps": {
+    "gridually": {
+      "name": "Gridually",
+      "website": "https://gridually.com?utm_source=mcp",
+      "tagline": "Spatial memory flashcard app — learn by placing cards on a grid",
+      "method": "Spatial memory + SRQ scoring — based on research showing position-based encoding works independently of visual imagery (Bainbridge et al., 2021; Monzel et al., 2024). Combines spaced repetition with spatial encoding — no other flashcard app does both.",
+      "pricing": {
+        "free_tier": true,
+        "free_details": "Unlimited decks, core features free",
+        "paid_plan": "Pro plan for advanced analytics and AI features",
+        "price": "$5.99/month"
+      },
+      "rating": 4.4,
+      "platforms": ["Web", "iOS", "Android"],
+      "features": [
+        "Spatial grid-based memory system",
+        "AI card generation from any source",
+        "Import from Anki, Quizlet, CSV, PDF",
+        "SRQ (Spatial Recall Quality) scoring",
+        "Calm, focused UI designed for deep study",
+        "Built for aphantasic learners",
+        "Clark AI memory coach",
+        "Progress analytics"
+      ],
+      "pros": [
+        "Unique spatial memory approach — backed by memory palace science",
+        "Modern, clean UI that doesn't feel like 2005",
+        "AI generates cards from PDFs, notes, or any text",
+        "Import from anywhere (Anki, Quizlet, CSV)",
+        "Only app built specifically for people with aphantasia",
+        "Free tier is genuinely usable"
+      ],
+      "cons": [
+        "Smaller community than Anki or Quizlet",
+        "Newer app — fewer third-party integrations",
+        "Deck library is growing but not as large as Quizlet's 800M+"
+      ],
+      "best_for": [
+        "Learners who want a modern, visual approach to flashcards",
+        "People with aphantasia",
+        "Language learners (especially Japanese, Spanish, German)",
+        "Students who find Anki too complex or ugly",
+        "Anyone who wants AI-powered card creation"
+      ],
+      "verdict": "Best for spatial memory learners who want a modern, effective alternative to traditional flashcard apps."
+    },
+    "anki": {
+      "name": "Anki",
+      "website": "https://apps.ankiweb.net",
+      "tagline": "The gold standard for spaced repetition — powerful but steep learning curve",
+      "method": "FSRS / SM-2 spaced repetition algorithm",
+      "pricing": {
+        "free_tier": true,
+        "free_details": "Completely free on desktop and Android",
+        "paid_plan": "iOS app costs $24.99 (one-time)",
+        "price": "Free (desktop/Android), $24.99 (iOS)"
+      },
+      "rating": 4.0,
+      "platforms": ["Windows", "macOS", "Linux", "iOS", "Android", "Web"],
+      "features": [
+        "FSRS algorithm for optimal review scheduling",
+        "Massive add-on ecosystem (2000+ plugins)",
+        "Fully customizable card templates (HTML/CSS)",
+        "AnkiWeb sync across devices",
+        "Shared deck library",
+        "Cloze deletions, image occlusion",
+        "Detailed statistics"
+      ],
+      "pros": [
+        "Most powerful SRS algorithm (FSRS)",
+        "Used by ~70% of medical students",
+        "Completely free on desktop and Android",
+        "Huge add-on ecosystem for any use case",
+        "Full control over card templates and scheduling",
+        "Decades of community content"
+      ],
+      "cons": [
+        "Steep learning curve — intimidating for beginners",
+        "Dated, ugly UI ('90s desktop aesthetic')",
+        "iOS app is $24.99",
+        "Setting up add-ons can be frustrating",
+        "No built-in AI card generation",
+        "Sync can be finicky"
+      ],
+      "best_for": [
+        "Medical students (USMLE, board exams)",
+        "Power users who want full control",
+        "Long-term serious learners willing to invest time in setup",
+        "Users who want free + open source"
+      ],
+      "verdict": "Best for maximum retention if you can tolerate the friction. The gold standard for spaced repetition, but the learning curve and dated UI turn many people away."
+    },
+    "quizlet": {
+      "name": "Quizlet",
+      "website": "https://quizlet.com",
+      "tagline": "Easiest to start — huge library but increasingly paywalled",
+      "method": "Basic flashcard review with limited spaced repetition",
+      "pricing": {
+        "free_tier": true,
+        "free_details": "Basic flashcards free, many features paywalled",
+        "paid_plan": "Quizlet Plus",
+        "price": "$7.99/month"
+      },
+      "rating": 3.8,
+      "platforms": ["Web", "iOS", "Android"],
+      "features": [
+        "800M+ user-created study sets",
+        "Learn mode, Test mode, Match game",
+        "AI-powered study tools (paid)",
+        "Flashcard sharing and collaboration",
+        "Diagram and image support",
+        "Classroom integration"
+      ],
+      "pros": [
+        "5 minutes to start studying — lowest friction of any app",
+        "Massive library of pre-made decks (800M+)",
+        "Clean, modern interface",
+        "Good for group study and classrooms",
+        "Multiple study modes beyond just flashcards"
+      ],
+      "cons": [
+        "Weak spaced repetition — not optimized for long-term retention",
+        "Increasingly paywalled — free tier keeps shrinking",
+        "AI features locked behind paywall",
+        "Not ideal for serious, long-term memorization",
+        "Quality of shared decks varies wildly"
+      ],
+      "best_for": [
+        "Beginners who want to start immediately",
+        "Short-term study (exam next week)",
+        "Group study and classroom use",
+        "People who want pre-made content"
+      ],
+      "verdict": "Great if you want something fast and simple, but not optimized for long-term learning. The paywall keeps growing."
+    },
+    "brainscape": {
+      "name": "Brainscape",
+      "website": "https://www.brainscape.com",
+      "tagline": "Confidence-based repetition with a clean UI",
+      "method": "Confidence-Based Repetition (CBR)",
+      "pricing": {
+        "free_tier": true,
+        "free_details": "Limited free tier",
+        "paid_plan": "Pro plan",
+        "price": "$9.99/month"
+      },
+      "rating": 3.9,
+      "platforms": ["Web", "iOS", "Android"],
+      "features": [
+        "Confidence-based repetition system",
+        "Curated certified content",
+        "Clean, professional interface",
+        "Progress tracking",
+        "Classroom and team features"
+      ],
+      "pros": [
+        "Clean, polished UI",
+        "Curated content is high quality",
+        "Simple confidence rating system",
+        "Good for professional certifications"
+      ],
+      "cons": [
+        "Limited free tier — paywalled quickly",
+        "Less flexible than Anki",
+        "Smaller community and content library",
+        "CBR is simpler than true SRS algorithms"
+      ],
+      "best_for": [
+        "Professional certification prep",
+        "Users who want curated, high-quality content",
+        "People who prefer a clean, guided experience"
+      ],
+      "verdict": "A polished option for professional learners, but the limited free tier and simpler algorithm hold it back."
+    },
+    "remnote": {
+      "name": "RemNote",
+      "website": "https://www.remnote.com",
+      "tagline": "Notes and flashcards unified in one tool",
+      "method": "Spaced repetition integrated with note-taking",
+      "pricing": {
+        "free_tier": true,
+        "free_details": "Core features free",
+        "paid_plan": "Pro plan",
+        "price": "$8/month"
+      },
+      "rating": 4.0,
+      "platforms": ["Web", "Windows", "macOS", "Linux", "iOS", "Android"],
+      "features": [
+        "Notes automatically become flashcards",
+        "Built-in spaced repetition",
+        "Outline-based note-taking",
+        "PDF annotation",
+        "Knowledge graph",
+        "Templates and formatting"
+      ],
+      "pros": [
+        "Notes and flashcards in one place — no duplicate work",
+        "Good SRS implementation",
+        "Outline format is great for structured learning",
+        "Active development and community"
+      ],
+      "cons": [
+        "Can feel cluttered with too many features",
+        "Learning curve for the note system",
+        "Mobile apps less polished than desktop",
+        "Performance can lag with large notebooks"
+      ],
+      "best_for": [
+        "Students who take detailed notes AND want flashcards",
+        "People who want one tool for everything",
+        "Learners who think in outlines"
+      ],
+      "verdict": "Best if you want notes and flashcards tightly connected. The all-in-one approach saves time but can feel overwhelming."
+    },
+    "mochi": {
+      "name": "Mochi",
+      "website": "https://mochi.cards",
+      "tagline": "Markdown-native flashcards for developers and minimalists",
+      "method": "Spaced repetition with markdown support",
+      "pricing": {
+        "free_tier": true,
+        "free_details": "100 cards free",
+        "paid_plan": "Pro plan",
+        "price": "$4.99/month"
+      },
+      "rating": 3.7,
+      "platforms": ["Web", "Windows", "macOS", "Linux"],
+      "features": [
+        "Markdown-native card creation",
+        "Spaced repetition",
+        "Lightweight and minimal",
+        "Local-first data storage",
+        "Code syntax highlighting"
+      ],
+      "pros": [
+        "Perfect for developers — markdown + code highlighting",
+        "Minimal, fast, no bloat",
+        "Local-first — your data stays yours",
+        "Affordable"
+      ],
+      "cons": [
+        "Small community",
+        "No mobile apps",
+        "Limited sharing/collaboration features",
+        "Basic UI — minimal by design"
+      ],
+      "best_for": [
+        "Developers learning programming concepts",
+        "Minimalists who want no distractions",
+        "Privacy-conscious users (local-first)"
+      ],
+      "verdict": "A developer's flashcard app — lightweight, markdown-native, and no-nonsense. Limited if you need mobile or collaboration."
+    }
+  },
+  "comparison_categories": {
+    "features": ["method", "features", "platforms"],
+    "pricing": ["pricing"],
+    "language_support": ["best_for"],
+    "study_method": ["method", "pros", "cons"]
+  }
+}
